@@ -9,77 +9,64 @@ updates:
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
+      
   - package-ecosystem: "cargo" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
+
   - package-ecosystem: "composer" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "docker" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "mix" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "elm" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "gitsubmodule" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "gomod" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "pub" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
-updates:
   - package-ecosystem: "terraform" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
