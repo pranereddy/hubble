@@ -5,7 +5,104 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm, bundler" # See documentation for possible values
+  - package-ecosystem: "bundler" # See documentation for possible values
     directory: "/docs" # Location of package manifests
     schedule:
       interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "cargo" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "composer" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+	  
+version: 2
+updates:
+  - package-ecosystem: "docker" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "mix" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "elm" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+	  
+version: 2
+updates:
+  - package-ecosystem: "gitsubmodule" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "gomod" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+	  
+version: 2
+updates:
+  - package-ecosystem: "gradle" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+	  
+version: 2
+updates:
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+version: 2
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+	  
+version: 2
+updates:
+  - package-ecosystem: "pub" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+	  
+version: 2
+updates:
+  - package-ecosystem: "terraform" # See documentation for possible values
+    directory: "/docs" # Location of package manifests
+    schedule:
+      interval: "daily"
+
